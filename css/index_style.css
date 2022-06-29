@@ -1,0 +1,46 @@
+
+.product
+{
+    position: relative;
+    cursor: pointer;
+}
+
+.product-info
+{
+    background-color: white;
+   position: absolute;
+   bottom: 30px;
+   left: 40px; 
+   width: 80%;
+   padding: 10px;
+}
+.lightBox-container
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0,0,0,.55);
+    display: none;
+}
+.lightBox-item
+{
+    width:60% ;
+    height: 500px;
+    background-image:url(images/portfolio-2.jpg);
+    background-size: 100% 100%;
+    justify-content: space-between;
+    position: relative;
+}
+.lightBox-item i
+{
+    font-size: 16px;
+    cursor: pointer;
+}
+#close
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
